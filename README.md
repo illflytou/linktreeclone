@@ -1,5 +1,5 @@
 Patryk Borkowski Clone Linktree
-Aperçu
+
 Ce projet est une simple page HTML/CSS qui sert de clone d'une page de destination personnelle de type Linktree pour Patryk Borkowski. La page fournit un accès rapide aux travaux récents de Patryk Borkowski, à sa page "À propos de moi" et à ses informations de contact, ainsi que des liens vers ses profils de médias sociaux.
 
 Structure du Projet
