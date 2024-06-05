@@ -1,116 +1,99 @@
-.body {
+body {
     display: flex;
     justify-content: center;
-    overflow: hidden;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
 }
 
-.section-image-titres-boutons {
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     width: 360px;
     height: 800px;
     overflow: hidden;
+    background-color: #fff;
+}
+
+.section-image-titres-boutons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
 }
 
 .photo {
-    margin-top: 148px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
 }
 
 h1 {
-    font-family: DM Serif Display;
+    font-family: 'DM Serif Display', serif;
     font-weight: 500;
-    font-size: 36px;
+    font-size: 32px;
     text-align: center;
-    margin-top: 16px;
-    margin-bottom: 0px;
-    color: rgba(21, 21, 21, 1)
+    color: rgba(21, 21, 21, 1);
 }
 
 h2 {
-    font-family: Public Sans;
+    font-family: 'Public Sans', sans-serif;
     font-size: 12px;
     text-align: center;
-    margin-top: 4px;
     font-weight: 500;
-    color: rgba(21, 21, 21, 1)
+    color: rgba(21, 21, 21, 1);
+    margin-top: -20px;
 }
 
 .div-boutons {
-    margin-top: 86px;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 80px;
 }
 
-.recent-work {
+button {
     display: block;
     background-color: rgba(224, 0, 94, 1);
     border: none;
-    font-family: Public Sans;
+    font-family: 'Public Sans', sans-serif;
     font-weight: 600;
     color: rgba(249, 249, 249, 1);
-    padding-top: 18px;
-    padding-bottom: 18px;
     font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 8px 0;
     width: 100%;
     cursor: pointer;
 }
 
-.recent-work:hover {
+button:hover {
     background-color: rgba(21, 21, 21, 1);
     transition: 0.2s ease-in-out;
 }
 
-.about-me {
-    display: block;
-    background-color: rgba(224, 0, 94, 1);
-    border: none;
-    font-family: Public Sans;
-    font-weight: 600;
-    color: rgba(249, 249, 249, 1);
-    font-size: 14px;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    margin-top: 16px;
+.section-reseaux-sociaux {
     width: 100%;
-    cursor: pointer;
-}
-
-.about-me:hover {
-    background-color: rgba(21, 21, 21, 1);
-    transition: 0.2s ease-in-out;
-}
-
-.contact {
-    display: block;
-    background-color: rgba(224, 0, 94, 1);
-    border: none;
-    font-family: Public Sans;
-    font-weight: 600;
-    color: rgba(249, 249, 249, 1);
-    font-size: 14px;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    margin-left: auto;
-    width: 100%;
-    margin-top: 16px;
-    position: relative;
-    /* Ensure positioning context for pseudo-element */
-    overflow: hidden;
-    /* Hide any overflowing content */
-    cursor: pointer;
-}
-
-.contact:hover {
-    background-color: rgba(21, 21, 21, 1);
-    transition: 0.2s ease-in-out;
+    margin-bottom: 20px;
 }
 
 .social-media-icons {
     display: flex;
-    justify-content: space-between;
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-top: -80px;
-    overflow: hidden;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.social-media-icons a img {
+    width: 24px;
+    height: 24px;
 }
 
 .button-link {
     text-decoration: none;
+    width: 100%;
 }
