@@ -1,4 +1,10 @@
-.section1 {
+.body {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.section-image-titres-boutons {
     width: 360px;
     height: 800px;
     overflow: hidden;
@@ -8,7 +14,7 @@
     margin-top: 148px;
 }
 
-.h1 {
+h1 {
     font-family: DM Serif Display;
     font-weight: 500;
     font-size: 36px;
@@ -18,7 +24,7 @@
     color: rgba(21, 21, 21, 1)
 }
 
-.h2 {
+h2 {
     font-family: Public Sans;
     font-size: 12px;
     text-align: center;
@@ -27,7 +33,7 @@
     color: rgba(21, 21, 21, 1)
 }
 
-.div-section-2 {
+.div-boutons {
     margin-top: 86px;
     overflow: hidden;
 }
@@ -96,7 +102,7 @@
     transition: 0.2s ease-in-out;
 }
 
-.social-media {
+.social-media-icons {
     display: flex;
     justify-content: space-between;
     margin-left: 80px;
@@ -107,9 +113,4 @@
 
 .button-link {
     text-decoration: none;
-}
-
-.body {
-    display: flex;
-    justify-content: center;
 }
